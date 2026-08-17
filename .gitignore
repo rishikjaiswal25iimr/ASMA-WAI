@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.streamlit/secrets.toml
+outputs/figures/*
+outputs/tables/*
+outputs/predictions/*
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/predictions/.gitkeep
+models/saved_models/*
+!models/saved_models/.gitkeep
+.DS_Store
